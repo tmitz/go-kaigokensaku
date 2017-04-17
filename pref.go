@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "log"
 
 func PrefCd2Str(n string) string {
 	pref := ""
@@ -100,7 +100,7 @@ func PrefCd2Str(n string) string {
 	case "47":
 		pref = "okinawa"
 	default:
-		fmt.Println("not found....")
+		log.Println("not found....")
 	}
 	return pref
 }
